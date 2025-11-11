@@ -22,7 +22,7 @@ The experiment is designed to be deployed in person, but can also be deployed on
 
 --ume_block 0 eye_tracker_code_public
 
-This will host a local server at http://localhost:8000 and generate a new 'build' folder, which can be deployed online. To deploy the program online, simply convert the entire folder (including the build folder, source code nd dependencies) into a .zip folder and upload it to the server where you are hosting your program. Additional information on pygbag deployment can be found through the links below:
+This will host a local server at http://localhost:8000 and generate a new 'build' folder, which can be deployed online. To deploy the program online, simply convert the entire folder (including the build folder, source code and dependencies) into a .zip folder and upload it to the server where you are hosting your program. Additional information on pygbag deployment can be found through the links below:
 
 https://pypi.org/project/pygbag/
 https://jackwhitworth.com/blog/how-to-run-pygame-in-the-browser/
@@ -38,3 +38,8 @@ The experiment makes use of pygame, a simple game design package, available at:
 https://www.pygame.org/news
 Pygame needs to be installed using pip, as detailed in the following website:
 https://www.pygame.org/wiki/GettingStarted
+
+Pygbag: 
+The experiment can be deployed online using pygbag, more information available at:
+https://pypi.org/project/pygbag/
+https://jackwhitworth.com/blog/how-to-run-pygame-in-the-browser/
